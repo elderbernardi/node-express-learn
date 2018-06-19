@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lista de Carros</title>
+    <<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h1>Esta é uma lista de carros:</h1>
+    <ul>
+      <% carros.forEach(function(carro) { %>
+          <li> <p> ID: <%= carro.id %> Marca: <%= carro.marca %></p> </li>
+      <% }); %>
+  </ul>
+
+  </body>
+</html>
